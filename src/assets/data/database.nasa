@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gaseosas",
+    "productos": [
+      {
+        "id": "1",
+        "nombre":"Coca cola",
+        "precio": 1500,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://storage.googleapis.com/phygital_files/boutique-gelada/uploads/produto/ref_coca_cola_2l_pet_f5eabaae-bd08-47ba-867e-7e5633bc6852.png"
+      },
+      {
+        "id": "2",
+        "nombre":"Sprite zero",
+        "precio": 2000,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://acdn.mitiendanube.com/stores/001/144/141/products/whatsapp-image-2021-08-25-at-11-08-571-f2321c146eb51f1dac16299005725116-1024-1024.jpeg"
+      },
+      {
+        "id": "3",
+        "nombre":"Speed XL",
+        "precio": 1000,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://acdn.mitiendanube.com/stores/001/664/228/products/sped1-965700bbaf6c88498716244644815764-640-0.jpg"
+      },
+      {
+        "id": "4",
+        "nombre":"Agua tónica",
+        "precio": 1500,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://quirinobebidas.com.ar/wp-content/uploads/2022/09/productos-2022-09-05T113522.346.png"
+      },
+      {
+        "id": "5",
+        "nombre":"H2O limoneto",
+        "precio": 1500,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://i0.wp.com/rockypizzas.com/wp-content/uploads/2022/05/H2O-Limoneto.png?fit=699%2C699&ssl=1"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Bebidas alcoholicas",
+    "productos": [
+      {
+        "id": "1",
+        "nombre":"Gin tonic Beefeater",
+        "precio": 3000,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://www.masquegastronomia.com/287-large_default/ginebra-beefeater.jpg"
+      },
+      {
+        "id": "2",
+        "nombre":"Vodka Sernova",
+        "precio": 2500,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fborrachines.com.ar%2Finicio%2Fproducto%2Fsernova-italian-style-700ml%2F&psig=AOvVaw2Upqgq9GuST4tIU7z1vrQ1&ust=1699132888731000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiFurThqIIDFQAAAAAdAAAAABAJ"
+      },
+      {
+        "id": "3",
+        "nombre":"Aperol Spritz",
+        "precio": 3250,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://almacen.do/wp-content/uploads/2018/07/Licor-Aperol-Spritz-Barbieri-700-ml-Front.jpg"
+      },
+      {
+        "id": "4",
+        "nombre":"Vino Las Perdices",
+        "precio": 5500,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://cepadevinos.com/wp-content/uploads/2016/09/perdices.jpg"
+      },
+      {
+        "id": "5",
+        "nombre":"Champagne Rose Chandon",
+        "precio": 8500,
+        "descripcion": "750 ml",
+        "fotoUrl": "https://arcordiezb2c.vteximg.com.br/arquivos/ids/178298/Champagne-Rose-Chandon-375-Cc-1-15447.jpg?v=638176125677430000"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Hielo",
+    "productos": [
+      {
+        "id": "1",
+        "nombre":"Bolsa de hielo",
+        "precio": 250,
+        "descripcion": "2 kg",
+        "fotoUrl": "https://blessings.com.ar/wp-content/uploads/2022/05/bolsa-hielo-660x800.jpg"
+      },
+      {
+        "id": "2",
+        "nombre":"Bolsa de hielo",
+        "precio": 500,
+        "descripcion": "4 kg",
+        "fotoUrl": "https://blessings.com.ar/wp-content/uploads/2022/05/bolsa-hielo-660x800.jpg"
+      }
+    ]
+  }
+]

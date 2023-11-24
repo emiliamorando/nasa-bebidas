@@ -1,0 +1,7 @@
+{
+  "name": "Nasa-bebidas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

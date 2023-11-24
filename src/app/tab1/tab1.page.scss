@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  ion-header {
+    background: #fff;
+  }
+  
+  ion-title {
+    color: #000;
+  }
+  
+  /* Estilo para el contenido principal */
+  ion-content {
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Estilos para las ofertas */
+  section {
+    padding: 20px;
+  }
+  
+  a {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  a:before {
+    content: '';
+    display: block;
+    padding-top: 100%; /* Esto crea una relación de aspecto de 1:1 */
+  }
+  
+  ion-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+  
+  /* Descuento y detalles del producto */
+  .discount-tag {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* Estilos para la barra de navegación inferior */
+  .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bottom-nav ion-icon {
+    font-size: 24px;
+    color: #fff;
+  }
