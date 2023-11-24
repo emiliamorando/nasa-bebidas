@@ -23,6 +23,7 @@ export class Tab2Page {
   categoriaSeleccionada: string | null = null;
 categoria: any;
 item: any;
+condicion: any;
 
  constructor(private categoriasService: CategoriasService, private filterProductosPipe: FilterProductosPipe, private navCtrl: NavController, private modalController: ModalController) {}
   

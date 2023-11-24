@@ -12,22 +12,30 @@
     <ion-item *ngFor="let categoria of categorias">
       <ion-label>
         <h2>{{ categoria.nombre }}</h2>
-        <ion-card *ngFor="let producto of categoria.productos | filterProductos:filtro">
-          <!-- Usa routerLink para navegar a la ruta deseada -->
-          <ion-card [routerLink]="['/productos', producto.nombre]">
-            <img [src]="producto.imagen" alt="{{ producto.nombre }}" />
-            <ion-card-header>
-              <ion-card-title>{{ producto.nombre }}</ion-card-title>
-              <ion-card-subtitle>${{ producto.precio }}</ion-card-subtitle>
-            </ion-card-header>
-            <ion-card-content>
-              {{ producto.descripcion }}
-            </ion-card-content>
+
+        <div *ngIf="categoria.productos.length > 0; else noProductos">
+          <ion-card *ngFor="let producto of categoria.productos | filterProductos:filtro">
+            <!-- Usa routerLink para navegar a la ruta deseada -->
+            <ion-card [routerLink]="['/productos', producto.nombre]" [ngClass]="{ 'clase-condicional': condicion }">
+              <img [src]="producto.imagen" alt="{{ producto.nombre }}" />
+              <ion-card-header>
+                <ion-card-title>{{ producto.nombre }}</ion-card-title>
+                <ion-card-subtitle>${{ producto.precio }}</ion-card-subtitle>
+              </ion-card-header>
+              <ion-card-content>
+                {{ producto.descripcion }}
+              </ion-card-content>
+            </ion-card>
           </ion-card>
-        </ion-card>
+        </div>
+
+        <ng-template #noProductos>
+          <p>No hay productos disponibles.</p>
+        </ng-template>
       </ion-label>
     </ion-item>
   </ion-list>
+</ion-content>
   
 
 
